@@ -1,4 +1,4 @@
-# 🌍 [Nome da Plataforma]
+# 🌍 Desafio Final Front-end: Plataforma CONNECT
 
 > **Conectar pessoas é transformar realidades.**
 
