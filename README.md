@@ -1,20 +1,45 @@
-# React + Vite
+# 🌱 Plataforma de Impacto Social
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma organização fictícia deseja lançar uma **plataforma digital** para divulgar projetos sociais, conectando iniciativas, voluntários e pessoas interessadas em gerar impacto positivo na sociedade.
 
-Currently, two official plugins are available:
+O seu papel é desenvolver essa plataforma com foco em uma experiência **moderna, acessível, responsiva e inspiradora**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🌍 Contexto do Projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+A plataforma tem como objetivos principais:
 
-## Expanding the ESLint configuration
+- Dar visibilidade a projetos sociais  
+- Apresentar informações claras e acessíveis  
+- Inspirar engajamento e transformação social  
+- Facilitar a conexão entre voluntários, organizações e apoiadores  
+- Transmitir confiança, empatia e profissionalismo por meio do design  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# dfinal-connect
-# dfinal-connect
-# dfinal-connect
-# dfinal-connect
+O time de frontend foi contratado para construir essa solução utilizando **React**, com uma arquitetura organizada e boas práticas de desenvolvimento.
+
+---
+
+## 🧩 Regras do Desafio
+
+### ✅ Tecnologias Obrigatórias
+
+### 1. React.js
+- O projeto deve ser criado com **React**
+- Código organizado em **componentes reutilizáveis**  
+  Exemplos:
+  - `Header`
+  - `Footer`
+  - `CardProjeto`
+  - `CardVoluntario`
+
+---
+
+### 2. React Router DOM
+
+Você deve criar as seguintes rotas:
+
+- `/` → Página Inicial (apresentação da plataforma e projetos)  
+- `/Doacao` → Página de doação  
+- `/Voluntariado` → Página para escolher projetos para ajudar  
+- `/Mentoria` → Página para e
