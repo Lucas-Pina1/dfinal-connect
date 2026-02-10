@@ -1,5 +1,4 @@
 .article {
-  border: 1px solid red;
   max-width: 357px;
   height: 55vh;
   display: flex;
@@ -38,4 +37,17 @@
 .article img {
   max-width: 100%;
   min-width: 0;
+}
+
+@media (max-width: 768px) {
+  .article {
+    h2 {
+      font-size: 25px;
+    }
+
+    button {
+      width: 150px;
+      font-size: 20px;
+    }
+  }
 }
