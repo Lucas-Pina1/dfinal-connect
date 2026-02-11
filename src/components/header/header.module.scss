@@ -28,6 +28,12 @@
         color: #fff;
         font-size: 22px;
         font-weight: 600;
+        transition: 0.5s;
+
+        &:hover {
+            color: #00AAFF;
+            font-size: 25px;
+        }
     }
 }
 
@@ -47,9 +53,14 @@
     
     a {
         display: block;
-        padding: 5px 10px;
+        padding: 7px 10px;
         color: #fff;
         text-align: end;
+        transition: 0.5s;
+
+        &:hover {
+            color: #00AAFF;
+        }
     }
 }
 

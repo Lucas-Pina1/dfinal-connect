@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
 
   h2 {
     font-family: "Source Sans 3", sans-serif;
@@ -31,6 +32,11 @@
     font-weight: 600;
     color: #fff;
     cursor: pointer;
+    transition: 0.2s;
+
+    &:hover {
+      background-color: #122f97;
+    }
   }
 }
 
@@ -47,7 +53,34 @@
 
     button {
       width: 150px;
-      font-size: 20px;
+      font-size: 18px;
+    }
+  }
+}
+
+@media (max-width: 340px) {
+  .article {
+    height: 100%;
+
+    gap: 5px;
+
+    img {
+      width: 80%;
+    }
+
+    h2 {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+
+    button {
+      width: 130px;
+      height: 30px;
+      font-size: 16px;
+      margin-top: 10px;
     }
   }
 }

@@ -59,3 +59,16 @@
     height: 220vh;
   }
 }
+
+@media (max-width: 340px) {
+  .main {
+    
+    section {
+      gap: 25px;
+    }
+
+    h1 {
+      font-size: 30px;
+    }
+  }
+}
