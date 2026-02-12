@@ -17,7 +17,7 @@ const EventosEP = () => {
             alt="varios jovens participando de uma roda de conversa"
             subtitulo="Empoderando Jovens para o Futuro"
             paragrafo="Atividade: Palestra motivacional sobre liderança jovem e transformação social."
-            segParagrafo = "Impacto: Inspirar adolescentes a se tornarem agentes de mudança em suas comunidades"
+            segParagrafo="Impacto: Inspirar adolescentes a se tornarem agentes de mudança em suas comunidades"
             textoBotao="Quero participar"
           />
         </article>
@@ -27,7 +27,7 @@ const EventosEP = () => {
             alt="Varias pessoas tendo aulas em um computador"
             subtitulo="Tecnologia que Transforma"
             paragrafo="Atividade: Workshop de introdução à programação e inovação digital."
-            segParagrafo = "Impacto: Preparar jovens para o mercado de trabalho através da tecnologia"
+            segParagrafo="Impacto: Preparar jovens para o mercado de trabalho através da tecnologia"
             textoBotao="Quero participar"
           />
         </article>
@@ -37,7 +37,7 @@ const EventosEP = () => {
             alt="Duas pessoas coversando em frente á um computador"
             subtitulo="Carreira e Primeiro Emprego"
             paragrafo="Atividade: Palestra com profissionais de RH sobre como preparar currículo, entrevistas e postura no mercado"
-            segParagrafo = "Impacto: Ajudar jovens a conquistar oportunidades de trabalho."
+            segParagrafo="Impacto: Ajudar jovens a conquistar oportunidades de trabalho."
             textoBotao="Quero participar"
           />
         </article>

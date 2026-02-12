@@ -1,6 +1,6 @@
 import s from "../Style.module.scss";
 
-import InfoCard from "../../components/infoCard/infoCard";
+import InfoCard from "../../components/infoCard";
 // imagens
 import imgFamilia from "../../assets/img/igFamilia.png";
 import livros from "../../assets/img/livros.png";
