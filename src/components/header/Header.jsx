@@ -1,7 +1,7 @@
-import s from "./header.module.scss";
-import { Link } from "react-router-dom";
-import logo from "../../assets/icones/logo.png";
-import { useEffect, useState } from "react";
+import s from './header.module.scss';
+import { Link } from 'react-router-dom';
+import logo from '../../assets/icones/logo.png';
+import { useEffect, useState } from 'react';
 
 const Header = () => {
   const [menuAberto, setMenuAberto] = useState(false);
@@ -14,14 +14,14 @@ const Header = () => {
 
       if (window.innerWidth > 768) setMenuAberto(false);
     }
-    window.addEventListener("resize", menuMobile);
-    return () => window.removeEventListener("resize", menuMobile);
+    window.addEventListener('resize', menuMobile);
+    return () => window.removeEventListener('resize', menuMobile);
   }, []);
 
   return (
     <>
       <header className={s.header}>
-        <Link to={"/"}>
+        <Link to={'/'}>
           <img
             className={s.imgLogo}
             src={logo}
@@ -30,16 +30,16 @@ const Header = () => {
         </Link>
         {!isMobile && (
           <nav className={s.nav}>
-            <Link className={s.Link} to={"/doacao"}>
+            <Link className={s.Link} to={'/doacao'}>
               Doação
             </Link>
-            <Link className={s.Link} to={"/voluntariado"}>
+            <Link className={s.Link} to={'/voluntariado'}>
               Voluntariado
             </Link>
-            <Link className={s.Link} to={"/mentoria"}>
+            <Link className={s.Link} to={'/mentoria'}>
               Mentoria
             </Link>
-            <Link className={s.Link} to={"/eventosEP"}>
+            <Link className={s.Link} to={'/eventosEP'}>
               Eventos
             </Link>
           </nav>
@@ -53,23 +53,23 @@ const Header = () => {
         />
       </header>
       <nav className={menuAberto ? s.navUser : s.closedNavUser}>
-        <Link to={"/usuario"} onClick={() => setMenuAberto(false)}>
+        <Link to={'/usuario'} onClick={() => setMenuAberto(false)}>
           Lucas Pina
         </Link>
         <Link onClick={() => setMenuAberto(false)}>Meu voluntariado</Link>
         <Link onClick={() => setMenuAberto(false)}>Configurações da conta</Link>
         {isMobile && (
           <div>
-            <Link to={"/doacao"} onClick={() => setMenuAberto(false)}>
+            <Link to={'/doacao'} onClick={() => setMenuAberto(false)}>
               Doação
             </Link>
-            <Link to={"/voluntariado"} onClick={() => setMenuAberto(false)}>
+            <Link to={'/voluntariado'} onClick={() => setMenuAberto(false)}>
               Voluntariado
             </Link>
-            <Link to={"/mentoria"} onClick={() => setMenuAberto(false)}>
+            <Link to={'/mentoria'} onClick={() => setMenuAberto(false)}>
               Mentoria
             </Link>
-            <Link to={"/eventosEp"} onClick={() => setMenuAberto(false)}>
+            <Link to={'/eventosEp'} onClick={() => setMenuAberto(false)}>
               Eventos
             </Link>
           </div>

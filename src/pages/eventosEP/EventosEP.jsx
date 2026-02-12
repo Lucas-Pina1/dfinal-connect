@@ -1,10 +1,10 @@
-import s from "../Style.module.scss";
+import s from '../Style.module.scss';
 
-import CardInfo from "../../components/cardInfo/CardInfo";
+import CardInfo from '../../components/cardInfo/CardInfo';
 // imagens
-import jovens from "../../assets/img/jovens.png";
-import tecTransforma from "../../assets/img/tecTransforma.png";
-import primeiroEmprego from "../../assets/img/primeiroEmprego.png";
+import jovens from '../../assets/img/jovens.png';
+import tecTransforma from '../../assets/img/tecTransforma.png';
+import primeiroEmprego from '../../assets/img/primeiroEmprego.png';
 
 const EventosEP = () => {
   return (

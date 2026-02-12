@@ -1,12 +1,12 @@
-import s from "./cardInfo.module.scss";
+import s from './cardInfo.module.scss';
 
 //biblioteca alerta
-import Swal from "sweetalert2";
+import Swal from 'sweetalert2';
 const CardInfo = (props) => {
   const mostrarAlert = () => {
     const Toast = Swal.mixin({
       toast: true,
-      position: "top-end",
+      position: 'top-end',
       showConfirmButton: false,
       timer: 3000,
       timerProgressBar: true,
@@ -16,8 +16,8 @@ const CardInfo = (props) => {
       },
     });
     Toast.fire({
-      icon: "success",
-      title: "Inscrito com sucesso!",
+      icon: 'success',
+      title: 'Inscrito com sucesso!',
     });
   };
 

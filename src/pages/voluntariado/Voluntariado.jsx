@@ -1,11 +1,10 @@
-import s from "../Style.module.scss";
+import s from '../Style.module.scss';
 
-
-import CardInfo from "../../components/cardInfo/CardInfo";
+import CardInfo from '../../components/cardInfo/CardInfo';
 // imagens
-import reciclagem from "../../assets/img/reciclagem.png";
-import tecnologia from "../../assets/img/tecnologia.png";
-import esporte from "../../assets/img/esporte.png";
+import reciclagem from '../../assets/img/reciclagem.png';
+import tecnologia from '../../assets/img/tecnologia.png';
+import esporte from '../../assets/img/esporte.png';
 
 const Voluntariado = () => {
   return (

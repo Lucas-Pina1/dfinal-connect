@@ -1,9 +1,9 @@
-import s from "./usuario.module.scss";
+import s from './usuario.module.scss';
 
 //icons
-import { MdOutlinePlace } from "react-icons/md";
-import { MdOutlineEmail } from "react-icons/md";
-import { IoCalendarClearOutline } from "react-icons/io5";
+import { MdOutlinePlace } from 'react-icons/md';
+import { MdOutlineEmail } from 'react-icons/md';
+import { IoCalendarClearOutline } from 'react-icons/io5';
 
 const Usuario = () => {
   return (
@@ -26,14 +26,14 @@ const Usuario = () => {
 
           <ul className={s.infos}>
             <li>
-              <MdOutlinePlace size={"1.25rem"} /> Belém, PA
+              <MdOutlinePlace size={'1.25rem'} /> Belém, PA
             </li>
             <li>
-              <MdOutlineEmail size={"1.25rem"} />
+              <MdOutlineEmail size={'1.25rem'} />
               lucas@gmail.com
             </li>
             <li>
-              <IoCalendarClearOutline size={"1.25rem"} />
+              <IoCalendarClearOutline size={'1.25rem'} />
               Membro desde Janeiro 2022
             </li>
           </ul>

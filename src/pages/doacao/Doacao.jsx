@@ -1,11 +1,10 @@
-import s from "../Style.module.scss";
+import s from '../Style.module.scss';
 
-
-import CardInfo from "../../components/cardInfo/CardInfo";
+import CardInfo from '../../components/cardInfo/CardInfo';
 // imagens
-import imgFamilia from "../../assets/img/igFamilia.png";
-import livros from "../../assets/img/livros.png";
-import instJovem from "../../assets/img/instJovem.png";
+import imgFamilia from '../../assets/img/igFamilia.png';
+import livros from '../../assets/img/livros.png';
+import instJovem from '../../assets/img/instJovem.png';
 
 const Doacao = () => {
   return (

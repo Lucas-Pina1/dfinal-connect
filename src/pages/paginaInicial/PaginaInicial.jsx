@@ -1,5 +1,5 @@
-import s from "./paginaInicial.module.scss";
-import banner from "../../assets/img/banner.png";
+import s from './paginaInicial.module.scss';
+import banner from '../../assets/img/banner.png';
 
 const PaginaInicial = () => {
   return (

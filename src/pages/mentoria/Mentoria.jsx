@@ -1,11 +1,10 @@
-import s from "../Style.module.scss";
+import s from '../Style.module.scss';
 
-
-import CardInfo from "../../components/cardInfo/CardInfo";
+import CardInfo from '../../components/cardInfo/CardInfo';
 // imagens
-import carreira from "../../assets/img/carreira.png";
-import experiencia from "../../assets/img/experiencia.png";
-import acompanhamento from "../../assets/img/acompanhamento.png";
+import carreira from '../../assets/img/carreira.png';
+import experiencia from '../../assets/img/experiencia.png';
+import acompanhamento from '../../assets/img/acompanhamento.png';
 
 const Mentoria = () => {
   return (
