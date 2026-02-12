@@ -1,4 +1,4 @@
-import s from "./infoCard.module.scss";
+import s from "./cardInfo.module.scss";
 
 //biblioteca alerta
 import Swal from "sweetalert2";
