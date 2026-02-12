@@ -1,6 +1,7 @@
 import s from "../Style.module.scss";
 
-import InfoCard from "../../components/infoCard/infoCard";
+
+import CardInfo from "../../components/cardInfo/CardInfo";
 // imagens
 import imgFamilia from "../../assets/img/igFamilia.png";
 import livros from "../../assets/img/livros.png";
@@ -12,7 +13,7 @@ const Doacao = () => {
       <h1>Doação</h1>
       <section>
         <article>
-          <InfoCard
+          <CardInfo
             img={imgFamilia}
             alt="Pessoa segurando caixa com doações de alimentos não perecíveis"
             subtitulo="Instituto grande familia"
@@ -21,7 +22,7 @@ const Doacao = () => {
           />
         </article>
         <article>
-          <InfoCard
+          <CardInfo
             img={livros}
             alt="Imagem de três livros"
             subtitulo="Projeto Futuro na Escola"
@@ -30,7 +31,7 @@ const Doacao = () => {
           />
         </article>
         <article>
-          <InfoCard
+          <CardInfo
             img={instJovem}
             alt="Imagem de jovens consertando um computador"
             subtitulo="Instituto Conecta Jovem"

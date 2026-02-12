@@ -2,7 +2,7 @@ import s from "./infoCard.module.scss";
 
 //biblioteca alerta
 import Swal from "sweetalert2";
-const InfoCard = (props) => {
+const CardInfo = (props) => {
   const mostrarAlert = () => {
     const Toast = Swal.mixin({
       toast: true,
@@ -31,4 +31,4 @@ const InfoCard = (props) => {
     </article>
   );
 };
-export default InfoCard;
+export default CardInfo;

@@ -1,6 +1,6 @@
 import s from "../Style.module.scss";
 
-import InfoCard from "../../components/infoCard/infoCard";
+import CardInfo from "../../components/cardInfo/CardInfo";
 // imagens
 import jovens from "../../assets/img/jovens.png";
 import tecTransforma from "../../assets/img/tecTransforma.png";
@@ -12,7 +12,7 @@ const EventosEP = () => {
       <h1>Eventos & Palestras</h1>
       <section>
         <article>
-          <InfoCard
+          <CardInfo
             img={jovens}
             alt="varios jovens participando de uma roda de conversa"
             subtitulo="Empoderando Jovens para o Futuro"
@@ -22,7 +22,7 @@ const EventosEP = () => {
           />
         </article>
         <article>
-          <InfoCard
+          <CardInfo
             img={tecTransforma}
             alt="Varias pessoas tendo aulas em um computador"
             subtitulo="Tecnologia que Transforma"
@@ -32,7 +32,7 @@ const EventosEP = () => {
           />
         </article>
         <article>
-          <InfoCard
+          <CardInfo
             img={primeiroEmprego}
             alt="Duas pessoas coversando em frente á um computador"
             subtitulo="Carreira e Primeiro Emprego"

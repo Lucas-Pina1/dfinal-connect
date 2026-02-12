@@ -1,6 +1,7 @@
 import s from "../Style.module.scss";
 
-import InfoCard from "../../components/infoCard/infoCard";
+
+import CardInfo from "../../components/cardInfo/CardInfo";
 // imagens
 import carreira from "../../assets/img/carreira.png";
 import experiencia from "../../assets/img/experiencia.png";
@@ -12,7 +13,7 @@ const Mentoria = () => {
       <h1>Mentoria</h1>
       <section>
         <article>
-          <InfoCard
+          <CardInfo
             img={carreira}
             alt="Pessoas coversando em uma mesa e alinhando opniões"
             subtitulo="Mentoria de Carreira e Emprego"
@@ -21,7 +22,7 @@ const Mentoria = () => {
           />
         </article>
         <article>
-          <InfoCard
+          <CardInfo
             img={experiencia}
             alt="Pessoas coversando em uma mesa, compartilhando conhecimento "
             subtitulo="Compartilhe Experiência"
@@ -30,7 +31,7 @@ const Mentoria = () => {
           />
         </article>
         <article>
-          <InfoCard
+          <CardInfo
             img={acompanhamento}
             alt="Duas pessoas coversando em frente á um computador"
             subtitulo="Acompanhamento"

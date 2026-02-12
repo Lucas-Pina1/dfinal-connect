@@ -1,6 +1,7 @@
 import s from "../Style.module.scss";
 
-import InfoCard from "../../components/infoCard/infoCard";
+
+import CardInfo from "../../components/cardInfo/CardInfo";
 // imagens
 import reciclagem from "../../assets/img/reciclagem.png";
 import tecnologia from "../../assets/img/tecnologia.png";
@@ -12,7 +13,7 @@ const Voluntariado = () => {
       <h1>Voluntáriado</h1>
       <section>
         <article>
-          <InfoCard
+          <CardInfo
             img={reciclagem}
             alt="Imagem de três pessoas carregando caixas para reciclagem"
             subtitulo="Mutirão de reciclagem"
@@ -21,7 +22,7 @@ const Voluntariado = () => {
           />
         </article>
         <article>
-          <InfoCard
+          <CardInfo
             img={tecnologia}
             alt="Alunos fazendo aulas de informatica"
             subtitulo="Aulas de Tecnologia"
@@ -30,7 +31,7 @@ const Voluntariado = () => {
           />
         </article>
         <article>
-          <InfoCard
+          <CardInfo
             img={esporte}
             alt="Alunos fazendo aulas de educação fisica e esportes"
             subtitulo="Esporte e Inclusão"
